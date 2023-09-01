@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.print-msg-box{
+    width: 600px;
+    padding:20px 15px;
+    border: 1 solid #6f6f6f;
+    background-color: #6f6f6f;
+
+
+}
+
+input,
+button{
+    width:100% ;
+    height:40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+button{
+    background-color:red;
+    color:#fff;
+    font-size:20px;
+    cursor:pointer;
+    opacity:0.7;
+    transition: 0.5s;
+    border:0;
+
+
+
+}
+button:hover{
+    opacity: 1;
+}
+p{
+    color:rgb(0, 81, 0);
+    font-size:20px;
+    margin:5px 0 0 0;
+    
+
+}
